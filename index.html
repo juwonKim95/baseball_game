@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신나는 야구 게임</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./baseball.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="sbo" class="inner">
+                <div id="strike" class="sbo_flex">
+                    <h2>S</h2>
+                    <p id="text_strike"></p>
+                </div>
+                <div id="ball" class="sbo_flex">
+                    <h2>B</h2>
+                    <p id="text_ball"></p>
+                </div>
+                <div id="out" class="sbo_flex">
+                    <h2>O</h2>
+                    <p id="text_out"></p>
+                </div>
+            </div>
+            <div id="top_right">
+                <div id="score">
+                    <div id="computer_score">
+                        <h3>컴퓨터</h3>
+                        <p id="c_score" class="score_bg">0</p>
+                    </div>
+                    <div id="user_score">
+                        <h3 id="user_name">사용자</h3>
+                        <p id="u_score" class="score_bg">0</p>
+                    </div>
+                </div>
+                <div id="inning">
+                    <div id="inning_num"></div>
+                    <div>회</div>
+                </div>
+                <div id="inning_chomal"></div>
+                <div id="textzone">
+                    <p id="text">자, 경기 시작합니다.<br>컴퓨터팀의 공격입니다.</p>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="bignemo">
+                <div id="base" class="nemo"></div>
+                <div id="homerun1" class="nemo"></div>
+                <div id="one" class="nemo"></div>
+                <div id="two" class="nemo"></div>
+                <div id="three" class="nemo"></div>
+            </div>
+            <div id="homerun"></div>
+            <div id="chchch"></div>
+        </div>
+        <div id="footer">
+            <button id="btn1" class="btn">스트라이크</button>
+            <button id="btn2" class="btn">볼</button>
+        </div>
+        <div id="endend"></div>
+    </div>
+</body>
+</html>
